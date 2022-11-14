@@ -1,0 +1,78 @@
+
+
+
+.navb li, button, i {
+    list-style: none;
+    padding: 3px;
+    background-color:rgb(16, 16, 16) ;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.navImg{
+    width: 65px;
+    height: 26px;
+
+}
+.nav{
+    background-color: rgb(16, 16, 16);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    color: #ffff;
+
+
+}
+.navb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img{
+    width: 100%;
+    margin: 5%  0% 5% 0%;
+}
+
+
+
+.posicion{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.noticia .img2{
+    
+    width: 80px;
+    height: 40px;
+}
+
+.footer{
+    background-image: url(https://img5.goodfon.com/wallpaper/nbig/6/2f/mstiteli-voina-beskonechnosti-avengers-infinity-war-komiks-1.jpg);
+    height: 500px;
+}
+
+.text{
+    color: #fff;
+    list-style: none;
+    padding: 15%;
+}
+
+.text1{
+    padding: 10px;
+}

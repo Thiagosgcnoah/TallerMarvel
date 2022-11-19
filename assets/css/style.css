@@ -1,14 +1,42 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-
-.navb li, button, i {
+.navb li, a, i {
     list-style: none;
     padding: 3px;
     background-color:rgb(16, 16, 16) ;
     color: #fff;
     border: none;
-    cursor: pointer;
+    text-decoration: none;
+
 }
+.pepe{
+    display: none;
+   }
+
+@media (max-width:992px){
+    .navb{
+        display: none !important;
+    }
+    .pepe{
+        background: transparent;
+        display: block !important;
+        border:  rgb(235, 220, 220);
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+}
+
+
+
 .navImg{
     width: 65px;
     height: 26px;
@@ -29,12 +57,26 @@
     justify-content: space-between;
 }
 
-.img{
-    width: 100%;
-    margin: 5%  0% 5% 0%;
+.img0{
+   margin: 60px 0;
+   width: 100%;
+   padding: 0 70px;
+
 }
 
+.img0 img{
+ width: 100%;
 
+}
+
+@media (max-width:992px){
+    .img0{
+        margin: 20px 0;
+        width: 100%;
+        padding: 0 30px;
+        
+    }
+}
 
 .posicion{
     width: 100%;
@@ -48,6 +90,12 @@
     gap: 20px;
     
 }
+@media (max-width:992px){
+    .posicion{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    }
 
 .container{
     display: grid;
@@ -56,16 +104,43 @@
     
 }
 
-.noticia .img2{
-    
+
+ 
+.new{
+    display: flex;
+    padding: 15px;
+}
+
+.noticia div{
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+
+.container div{
+   border: 1px solid #000;
+   border-radius: 15px;
+}
+.container div img{
+    width: 100%;
+    border-radius: 15px;
+}
+.container div h4, p{
+    padding: 10px;
+}
+ .img2{
+    display: flex;
     width: 80px;
     height: 40px;
 }
 
 .footer{
     background-image: url(https://img5.goodfon.com/wallpaper/nbig/6/2f/mstiteli-voina-beskonechnosti-avengers-infinity-war-komiks-1.jpg);
-    height: 500px;
-}
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    }
 
 .text{
     color: #fff;
@@ -76,3 +151,4 @@
 .text1{
     padding: 10px;
 }
+
